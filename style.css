@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+    font-family: YandexSansTextRegular, sans-serif;
+}
+
+.body {
+    background: #ffde40;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    background: #ffde40;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.container-nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color: #21201f;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.button {
+    background: #21201f;
+    color: #fff;
+    font-family: YandexSansTextRegular;
+    /* padding: 4px 51px; */
+    line-height: 38px;
+    border-radius: 18px;
+    font-size: 20px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 160px;
+    height: 50px;
+}
+
+.button-big {
+    line-height: 54px;
+    border-radius: 24px;
+    font-size: 24px;
+    height: 80px;
+    width: 400px;
+    margin-bottom: 38px;
+}
+
+.main {
+    margin-top: 160px;
+}
+
+.parent {
+    position: relative;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.samokat-box {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.samokat {
+    width: 920px;
+}
+
+.h2 {
+    font-size: 36px;
+    max-width: 600px;
+    font-weight: 800;
+    position: absolute;
+    top: 450px;
+    margin: 0;
+}
+
+.p-where {
+    font-family: YandexSansTextRegular, sans-serif;
+    line-height: 110%;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    /* max-width: 900px; */
+    margin-bottom: 10px;
+}
+
+.p-where a {
+    font-family: YandexSansTextRegular, sans-serif;
+    line-height: 110%;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.align-right {
+    position: absolute;
+    /* right: 85px; */
+    top: 700px;
+    left: 890px;
+}
+
+.h2-arend {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.video {
+    border-radius: 56px;
+    width: 360px;
+}
+
+.p-instruction {
+    font-size: 36px;
+    margin-top: 32px;
+    max-width: 470px;
+    font-weight: 800;
+}
+
+.way-line {
+    position: absolute;
+    top: 630px;
+    left: 380px;
+}
+
+.ready {
+    font-size: 40px;
+    background: #21201f;
+    padding: 50px 120px;
+    text-align: center;
+    border-radius: 56px;
+    line-height: 110%;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.parent-video {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-tarif {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.tarif-absolute {
+    position: absolute;
+    top: 110px;
+    left: 550px;
+}
+
+.trif-item {
+    border: 5px solid #21201f;
+    padding: 72px 56px;
+    width: calc(517px - 0px);
+    /* height: 396px; */
+    border-radius: 56px;
+    margin-top: 34px;
+}
+
+.trif-item-punct {
+    border-style: dashed;
+}
+
+.trif-item-black {
+    background: #21201f;
+    width: calc(680px - 0px);
+    padding-right: 115px;
+}
+
+.trif-item-minut {
+    width: calc(464px - 0px);
+}
+
+.trif-item-plus {
+    width: calc(464px - 0px);
+    border: 0;
+    background-image: url(https://avatars.mds.yandex.net/get-lpc/1368426/10c1c55d-f843-434c-9caf-57c59dfa7cd5/orig);
+}
+
+.rider {
+    width: 455px;
+    border-radius: 56px;
+    border: 5px solid #21201f;
+    margin-top: 34px;
+}
+
+.neihbour {
+    display: flex;
+}
+
+.h3 {
+    margin: 0;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 36px;
+    line-height: 107%;
+    color: #21201f;
+    margin-bottom: 32px;
+    font-weight: 900;
+}
+
+.tarif-info {
+    margin: 0;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 22px;
+    line-height: 120%;
+    color: #21201f;
+    font-weight: 600;
+}
+
+.white {
+    color: #fff;
+}
+
+.plus {
+    width: 85px;
+}
+
+.container-abonement {
+    padding: 128px 0 200px;
+    border-radius: 56px 56px 0 0;
+    background: url(https://avatars.mds.yandex.net/get-lpc/1220100/8afabd62-3e5f-48b5-862d-1aca76d42ef6/orig);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    position: relative;
+}
+
+.title-plus {
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 84px;
+    line-height: 88px;
+    color: #21201f;
+    max-width: 615px;
+    font-weight: 900;
+}
+
+.ya-plus {
+    width: 513px;
+}
+
+.title-box {
+    margin-right: 20px;
+}
+
+.container-plus {
+    width: 920px;
+    position: relative;
+}
+
+.foto-plus {
+    position: absolute;
+    left: 587px;
+    bottom: 515px;
+}
+
+.plus-info {
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 32px;
+    line-height: 130%;
+    color: #21201f;
+    margin-top: 32px;
+    max-width: 745px;
+    font-weight: 600;
+}
+
+.item-title {
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 32px;
+    line-height: 100%;
+    color: #21201f;
+    font-weight: 900;
+}
+
+.neihbour-box {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.item-info {
+    font-family: YandexSansTextRegular, sans-serif;
+    font-size: 22px;
+    line-height: 130%;
+    color: #21201f;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.section-ride {
+    padding: 371px 0 535px;
+    position: relative;
+}
+
+.ruls {
+    background: #fff;
+    padding: 56px 0 177px 93px;
+    width: 920px;
+    border-radius: 56px;
+    color: #21201f;
+    position: relative;
+}
+
+.block {
+    width: 100%;
+    height: 128px;
+    background: #ffde40;
+    border-radius: 56px 56px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ruls-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-family: YandexSansTextRegular, sans-serif;
+    line-height: 110%;
+    font-weight: 900;
+}
+
+.ruls-info {
+    font-size: 22px;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 600;
+}
+
+.ruls-item {
+    max-width: 390px;
+    margin-right: 34px;
+}
+
+.video-slider {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 734px;
+    z-index: 1;
+    border-radius: 32px;
+    height: 414px;
+}
+
+.dot {
+    width: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.dots {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 17%;
+    right: 28%;
+    z-index: 1;
+}
+
+.h2-ruls {
+    font-size: 64px;
+    margin-bottom: 72px;
+    font-family: YandexSansTextRegular, sans-serif;
+    line-height: 110%;
+    font-weight: 900;
+}
+
+.neihbour-ruls {
+    margin-bottom: 96px;
+}
+
+.green {
+    background: #00CA50;
+    width: 670px;
+    padding: 83px;
+    border-radius: 56px;
+    position: absolute;
+    /* bottom: 0;
+    right: 0; */
+    right: 14%;
+    top: 71%;
+}
+
+.green-info {
+    font-size: 32px;
+    color: #fff;
+    line-height: 130%;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 600;
+}
+
+.section-where {
+    background: #fff;
+    padding-top: 128px;
+    border-radius: 56px 56px 0 0;
+}
+
+.where-title {
+    font-size: 64px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 900;
+}
+
+.where-info {
+    font-size: 32px;
+    line-height: 130%;
+    margin-bottom: 72px;
+    margin-top: 0;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 600;
+}
+
+.map {
+    width: 920px;
+}
+
+.section-download {
+    background-size: 1106px;
+    background-position: left 50% top 226px;
+    background-image: url(https://avatars.mds.yandex.net/get-lpc/1370085/ee43338c-db8c-44a5-982e-e9372ae4028c/orig);
+    
+    padding-top: 128px;
+    background-repeat: no-repeat;
+    background-color: #fff;;
+    background-position-y: bottom;
+
+    padding-top: 128px;
+}
+
+.download-title {
+    font-size: 64px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    max-width: 455px;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 900;
+}
+
+.download-info {
+    font-size: 32px;
+    line-height: 130%;
+    max-width: 455px;
+    padding-bottom: 48px;
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.qr {
+    padding: 0 17px 164px;
+    margin: 0;
+}
+
+.footer {
+    background: #fff;
+    padding: 56px 0;
+}
+
+.footer-links {
+    font-size: 13px;
+    line-height: 16px;
+    color: #21201f;
+    
+    font-family: YandexSansTextRegular, sans-serif;
+    font-weight: 600;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #21201f;
+}
+
+.footer-block {
+    max-width: 600px;
+}
+
+.container-footer {
+    justify-content: space-between;
+}
+
